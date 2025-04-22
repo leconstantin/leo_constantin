@@ -3,21 +3,21 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from "@/components/icons/social";
+import profile from "../../public/profile.jpeg";
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="mx-5 sm:mx-0 flex flex-col space-y-5 max-w-xl">
+    <main className="mx-5 sm:mx-0 flex flex-col space-y-5 max-w-2xl">
       <Image
-        src="/profile.jpeg"
+        src={profile}
         alt="Profile Picture"
-        width={60}
-        height={60}
         className="rounded-full size-16"
+        priority
       />
       <h1 className="text-5xl font-bold tracking-tighter">
         Programmer. Writer. Player.
       </h1>
-      <p className="mt-6 text-base text-zinc-600">
+      <p className="mt-6 tracking-tight text-lg font-medium">
         Hey, I'm Constantin. I'm the founder and CEO of{" "}
         <a
           href="https://rathon.vercel.app/"
@@ -30,7 +30,7 @@ export default function Home() {
         development, and hosting.
       </p>
 
-      <p className="mt-6 text-base text-zinc-600">
+      <p className="mt-4 text-lg font-medium tracking-tight text-muted-foreground">
         In my daily programming activities i use different languages and
         frameworks to create well designed and functional softwares. But am
         likely to use{" "}

@@ -35,7 +35,7 @@ export default function Container({ children }: { children: ReactNode }) {
           <h1 className="text-4xl tracking-tighter text-zinc-800 sm:text-5xl font-bold">
             {meta[segment[0]].title}
           </h1>
-          <p className="mt-6 text-base text-zinc-600">
+          <p className="mt-6 text-lg text-muted-foreground tracking-tight">
             {meta[segment[0]].description}
           </p>
         </div>
