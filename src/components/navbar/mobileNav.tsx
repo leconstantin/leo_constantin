@@ -4,7 +4,7 @@ import { motion, useCycle } from "motion/react";
 import { ReactNode, useEffect, useRef } from "react";
 import { useSelectedLayoutSegment } from "next/navigation";
 import Link from "next/link";
-const navItems = ["projects", "blog", "certificates"];
+import { navItems } from "./navbar";
 
 export default function MobileNav() {
   const [isOpen, toggleOpen] = useCycle(false, true);

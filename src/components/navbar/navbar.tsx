@@ -6,7 +6,7 @@ import { useSelectedLayoutSegment } from "next/navigation";
 import DesktopNavItem from "./desktopNavItem";
 import MobileNav from "./mobileNav";
 
-const navItems = ["projects", "blog", "certificates"];
+export const navItems = ["projects", "blogs", "certificates"];
 
 export default function NavBar() {
   const segment = useSelectedLayoutSegment();
