@@ -32,7 +32,7 @@ export default function Container({ children }: { children: ReactNode }) {
     <main className="max-w-2xl lg:max-w-5xl mt-16 sm:mt-32 mx-auto">
       {segment.length === 1 && (
         <div className="max-w-2xl mx-5 sm:mx-0">
-          <h1 className="text-4xl tracking-tighter text-zinc-800 sm:text-5xl font-bold">
+          <h1 className="text-4xl tracking-tight text-primary sm:text-5xl font-bold">
             {meta[segment[0]].title}
           </h1>
           <p className="mt-6 text-lg text-muted-foreground tracking-tight">

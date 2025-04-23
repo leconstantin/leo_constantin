@@ -22,7 +22,7 @@ export default function Home() {
         <a
           href="https://rathon.vercel.app/"
           target="_blank"
-          className="underline underline-offset-4 text-zinc-800 font-semibold"
+          className="underline underline-offset-4 text-muted-foreground font-semibold"
         >
           Rathon
         </a>{" "}
@@ -30,14 +30,14 @@ export default function Home() {
         development, and hosting.
       </p>
 
-      <p className="mt-4 text-lg font-medium tracking-tight text-muted-foreground">
+      <p className="mt-4 text-lg font-medium  text-muted-foreground">
         In my daily programming activities i use different languages and
         frameworks to create well designed and functional softwares. But am
         likely to use{" "}
         <a
           href="https://nextjs.org/"
           target="_blank"
-          className="underline underline-offset-4 text-zinc-800 font-semibold"
+          className="underline underline-offset-4 text-primary font-semibold"
         >
           Nextjs
         </a>
@@ -45,7 +45,7 @@ export default function Home() {
         <a
           href="https://www.typescriptlang.org/"
           target="_blank"
-          className="underline underline-offset-4 text-zinc-800 font-semibold"
+          className="underline underline-offset-4 text-primary font-semibold"
         >
           Typescript
         </a>
@@ -54,7 +54,7 @@ export default function Home() {
           href="https://www.prisma.io/"
           target="_blank"
           rel="noreferrer noopener"
-          className="underline underline-offset-4 text-zinc-800 font-semibold"
+          className="underline underline-offset-4 text-primary font-semibold"
         >
           Prisma
         </a>
@@ -62,7 +62,7 @@ export default function Home() {
         <a
           href="https://www.postgresql.org/"
           target="_blank"
-          className="underline underline-offset-4 text-zinc-800 font-semibold"
+          className="underline underline-offset-4 text-primary font-semibold"
         >
           Postgress
         </a>
