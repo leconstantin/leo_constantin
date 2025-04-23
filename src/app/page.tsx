@@ -3,14 +3,15 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from "@/components/icons/social";
-import profile from "../../public/profile.jpeg";
 import Image from "next/image";
 export default function Home() {
   return (
     <main className="mx-5 sm:mx-0 flex flex-col space-y-5 max-w-2xl">
       <Image
-        src={profile}
+        src="/profile.jpeg"
         alt="Profile Picture"
+        width={64}
+        height={64}
         className="rounded-full size-16"
         priority
       />
@@ -37,6 +38,7 @@ export default function Home() {
         <a
           href="https://nextjs.org/"
           target="_blank"
+          rel="noopener noreferrer"
           className="underline underline-offset-4 text-primary font-semibold"
         >
           Nextjs
@@ -45,6 +47,7 @@ export default function Home() {
         <a
           href="https://www.typescriptlang.org/"
           target="_blank"
+          rel="noopener noreferrer"
           className="underline underline-offset-4 text-primary font-semibold"
         >
           Typescript
@@ -69,16 +72,27 @@ export default function Home() {
         .
       </p>
       <div className="mt-6 flex gap-6">
-        <a href="https://x.com/le_con82546" target="_blank">
+        <a
+          href="https://x.com/le_con82546"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my Twitter profile"
+        >
           <TwitterIcon className="h-6 w-6 hover:scale-105 transition-all" />
         </a>
-        <a href="https://github.com/leconstantin" target="_blank">
+        <a
+          href="https://github.com/leconstantin"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my GitHub profile"
+        >
           <GitHubIcon className="h-6 w-6 hover:scale-105 transition-all" />
         </a>
         <a
           href="https://www.linkedin.com/in/leoconstantin/"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noopener noreferrer"
+          aria-label="Visit my LinkedIn profile"
         >
           <LinkedInIcon className="h-6 w-6 hover:scale-105 transition-all" />
         </a>
