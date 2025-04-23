@@ -8,8 +8,8 @@ import Container from "@/components/container";
 import NavBar from "@/components/navbar/navbar";
 
 export const metadata: Metadata = {
-  title: "Leo Constantin",
-  description: "Personal website of Leo Constantin",
+  title: "Leo Constantin | Full Stack Developer",
+  description: "Personal website of Leo Constantin , Full stack Developer",
 };
 
 export default function RootLayout({
