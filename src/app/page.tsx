@@ -18,7 +18,7 @@ export default function Home() {
         Programmer. Writer. Player.
       </h1>
       <p className="mt-6 tracking-tight text-lg font-medium">
-        Hey, I'm Constantin. I'm the founder and CEO of{" "}
+        Hey, I&apos;m Constantin. I&apos;m the founder and CEO of{" "}
         <a
           href="https://rathon.vercel.app/"
           target="_blank"

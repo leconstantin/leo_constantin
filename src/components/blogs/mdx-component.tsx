@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 import { Callout } from "./callout";
+import Image from "next/image";
 export const components = {
   h1: ({ children, ...props }: ComponentProps<"h1">) => (
     <h1
@@ -123,4 +124,5 @@ export const components = {
     );
   },
   Callout,
+  Image,
 };
