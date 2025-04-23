@@ -6,6 +6,7 @@ import { GeistMono } from "geist/font/mono";
 import { ThemeProvider } from "@/components/theme-provider";
 import Container from "@/components/container";
 import NavBar from "@/components/navbar/navbar";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Leo Constantin | Full Stack Developer",
@@ -33,6 +34,7 @@ export default function RootLayout({
         >
           <NavBar />
           <Container>{children}</Container>
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
