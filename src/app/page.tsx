@@ -12,7 +12,7 @@ export default function Home() {
         alt="Profile Picture"
         width={64}
         height={64}
-        className="rounded-full size-16"
+        className="rounded-full size-16 aspect-square"
         priority
       />
       <h1 className="text-5xl font-bold tracking-tighter">
