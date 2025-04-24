@@ -10,8 +10,8 @@ export default function Home() {
       <Image
         src="/profile.jpeg"
         alt="Profile Picture"
-        width={64}
-        height={64}
+        width={128}
+        height={114}
         className="rounded-full size-16"
         priority
       />
